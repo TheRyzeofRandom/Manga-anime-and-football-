@@ -1,19 +1,142 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-    <title>Actu Foot & Manga</title>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ryze Actu - Foot & Manga</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0b0b0b;
+    color: white;
+}
+
+header {
+    background: linear-gradient(90deg, #111, #222);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 40px;
+    margin: 0;
+    color: #00eaff;
+}
+
+nav {
+    background: #151515;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+.hero {
+    padding: 40px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 35px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: #1c1c1c;
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #000;
+}
+
+.card h3 {
+    color: #00eaff;
+}
+
+.button {
+    display: inline-block;
+    background: #00eaff;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    margin-top: 30px;
+}
+</style>
+
 </head>
 
 <body>
 
-<h1>🔥 Actu Foot & Manga 🔥</h1>
+<header>
+<h1>🔥 Ryze Actu 🔥</h1>
+<p>Football ⚽ & Manga / Anime 🍥</p>
+</header>
 
-<h2>⚽ Actualité Football</h2>
-<p>Les dernières nouvelles du football : matchs, mercato, joueurs...</p>
+<nav>
+<a href="#">Accueil</a>
+<a href="#">Football</a>
+<a href="#">Manga Anime</a>
+<a href="#">Contact</a>
+</nav>
 
-<h2>🍥 Actualité Manga & Anime</h2>
-<p>Les dernières infos : nouveaux chapitres, épisodes, théories...</p>
+
+<section class="hero">
+<h2>Bienvenue sur Ryze Actu</h2>
+<p>Toutes les dernières actualités du monde du football et des mangas.</p>
+</section>
+
+
+<div class="container">
+
+<div class="card">
+<h3>⚽ Actualité Football</h3>
+<p>Retrouve les infos mercato, les résultats, les joueurs et les grandes compétitions.</p>
+<a class="button" href="#">Voir les actus</a>
+</div>
+
+
+<div class="card">
+<h3>🍥 Manga & Anime</h3>
+<p>Découvre les nouveaux chapitres, épisodes, théories et annonces importantes.</p>
+<a class="button" href="#">Voir les actus</a>
+</div>
+
+
+<div class="card">
+<h3>🔥 Tendances</h3>
+<p>Les sujets qui font parler dans le monde du sport et de la culture japonaise.</p>
+<a class="button" href="#">Découvrir</a>
+</div>
+
+</div>
+
+
+<footer>
+<p>© 2026 Ryze Actu - Foot & Manga</p>
+</footer>
 
 </body>
 </html>
